@@ -11,7 +11,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Actions.Vent vent = new Actions.Vent(1, "IIIb",20,20,20);
+            Actions.Vent vent = new Actions.Vent(1, "IIIb",20,20,20,false);
             Console.WriteLine(vent.qp);
         }
     }
